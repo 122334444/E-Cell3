@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+</head>
+<body id="home">
+
+    <header>
+        <div class="container">
+            <div class="name">
+                <a href="#">BrandName</a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="#pricing"><i class="fas fa-tags"></i> Pricing</a></li>
+                    <li><a href="#contacts"><i class="fas fa-envelope"></i> Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="search-bar-container">
+        <div class="container">
+            <input type="text" class="search-bar" placeholder="Search products...">
+            <button class="search-button">Search</button>
+        </div>
+    </div>
+
+    <section id="products" class="products-section">
+        <h2>Our Products</h2>
+        <div class="container">
+            <h3>Hockey Stick</h3>
+            <div class="products">
+                <div class="product">
+                    <a href="#" onclick="showProductDetails('Hockey Stick 1', 10, 'Durable and lightweight hockey stick.', 'images/hockey1.jpg')">
+                        <img src="images/hockey1.jpg" alt="Hockey Stick">
+                        <h3>Hockey Stick 1</h3>
+                        <p class="price">$10</p>
+                        <p>Durable and lightweight hockey stick.</p>
+                    </a>
+                </div>
+                <div class="product">
+                    <a href="#" onclick="showProductDetails('Hockey Stick 2', 15, 'Perfectly balanced Hockey Stick for power and precision.', 'images/hockey2.jpg')">
+                        <img src="images/hockey2.jpg" alt="Hockey Stick">
+                        <h3>Hockey Stick 2</h3>
+                        <p class="price">$15</p>
+                        <p>Perfectly balanced Hockey Stick for power and precision.</p>
+                    </a>
+                </div>
+
+                <div class="product">
+                    <a href="#" onclick="showProductDetails('Hockey Stick 3', 15, 'Perfectly balanced Hockey Stick for power and precision.', 'images/hockey3.jpg')">
+                        <img src="images/hockey3.jpg" alt="Hockey Stick">
+                        <h3>Hockey Stick 3</h3>
+                        <p class="price">$25</p>
+                        <p>Perfectly balanced Hockey Stick for power and precision.</p>
+                    </a>
+                </div>
+
+                <div class="product">
+                    <a href="#" onclick="showProductDetails('Hockey Stick 4', 35, 'Perfectly balanced Hockey Stick for power and precision.', 'images/hockey4.jpg')">
+                        <img src="images/hockey4.jpg" alt="Hockey Stick">
+                        <h3>Hockey Stick 4</h3>
+                        <p class="price">$35</p>
+                        <p>Perfectly balanced Hockey Stick for power and precision.</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="products" class="products-section">
+        <div class="container">
+            <h3>Bat</h3>
+            <div class="products">
+                <div class="product">
+                    <a href="#" onclick="showProductDetails('Bat 1', 15, 'Durable and lightweight cricket Bat.', 'images/bat1.jpg')">
+                        <img src="images/bat1.jpg" alt="Bat">
+                        <h3>Bat 1</h3>
+                        <p class="price">$15</p>
+                        <p>Durable and lightweight cricket Bat.</p>
+                    </a>
+                </div>
+                <div class="product">
+                    <a href="#" onclick="showProductDetails('Bat 2', 20, 'Perfectly balanced cricket bat for power and precision.', 'images/bat2.jpg')">
+                        <img src="images/bat2.jpg" alt="Bat">
+                        <h3>Bat 2</h3>
+                        <p class="price">$20</p>
+                        <p>Perfectly balanced cricket bat for power and precision.</p>
+                    </a>
+                </div>
+                <div class="product">
+                    <a href="#" onclick="showProductDetails('Bat 3', 30, 'High-quality cricket Bat with excellent grip.', 'images/bat3.jpg')">
+                        <img src="images/bat3.jpg" alt="Bat">
+                        <h3>Bat 3</h3>
+                        <p class="price">$30</p>
+                        <p>High-quality cricket Bat with excellent grip.</p>
+                    </a>
+                </div>
+                <div class="product">
+                    <a href="#" onclick="showProductDetails('Bat 4', 30, 'High-quality cricket Bat with excellent grip.', 'images/bat4.jpg')">
+                        <img src="images/bat4.jpg" alt="Bat">
+                        <h3>Bat 4</h3>
+                        <p class="price">$30</p>
+                        <p>High-quality cricket Bat with excellent grip.</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="products" class="products-section">
+        <div class="container">
+            <h3>Volleyball</h3>
+            <div class="products">
+                <div class="product">
+                    <a href="#" onclick="showProductDetails('Volleyball 1', 12, 'Durable and lightweight Volleyball.', 'images/vollyball1.jpg')">
+                        <img src="images/vollyball1.jpg" alt="Volleyball">
+                        <h3>Volleyball 1</h3>
+                        <p class="price">$12</p>
+                        <p>Durable and lightweight Volleyball.</p>
+                    </a>
+                </div>
+                <div class="product">
+                    <a href="#" onclick="showProductDetails('Volleyball 2', 20, 'Perfect Volleyball for professionals.', 'images/vollyball2.jpg')">
+                        <img src="images/vollyball2.jpg" alt="Volleyball">
+                        <h3>Volleyball 2</h3>
+                        <p class="price">$20</p>
+                        <p>Perfect Volleyball for professionals.</p>
+                    </a>
+                </div>
+                <div class="product">
+                    <a href="#" onclick="showProductDetails('Volleyball 3', 35, 'High-quality volleyball with excellent grip.', 'images/vollyball3.jpg')">
+                        <img src="images/vollyball3.jpg" alt="Volleyball">
+                        <h3>Volleyball 3</h3>
+                        <p class="price">$35</p>
+                        <p>High-quality volleyball with excellent grip.</p>
+                    </a>
+                </div>
+                <div class="product">
+                    <a href="#" onclick="showProductDetails('Volleyball 4', 45, 'Premium Volleyball with professional-grade grip.', 'images/vollyball4.jpg')">
+                        <img src="images/vollyball4.jpg" alt="Volleyball">
+                        <h3>Volleyball 4</h3>
+                        <p class="price">$45</p>
+                        <p>Premium Volleyball with professional-grade grip.</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="pricing" class="pricing-section">
+        <div class="container">
+            <h2>Subscription Plans</h2>
+            <div class="pricing-table">
+                <div class="plan basic">
+                    <h3>Basic</h3>
+                    <p class="price">$10/month</p>
+                    <p>Basic features included.</p>
+                </div>
+                <div class="plan standard popular">
+                    <h3>Standard</h3>
+                    <p class="price">$20/month</p>
+                    <p>All standard features included.</p>
+                </div>
+                <div class="plan premium">
+                    <h3>Premium</h3>
+                    <p class="price">$30/month</p>
+                    <p>All premium features included.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="social-media">
+                <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <p>&copy; 2024 BrandName. All rights reserved.</p>
+        </div>
+        <a href="#home"><button class="button">Go to top!</button></a>
+    </footer>
+    <script src="script.js" defer></script>
+</body>
+</html>
